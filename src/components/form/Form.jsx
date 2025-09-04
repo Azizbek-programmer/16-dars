@@ -8,7 +8,7 @@ const Form = ({onClose, setData}) => {
   const [categorys, setCategorys] = useState([])
   const [country, setCountry] = useState("") 
   const [isHalal, setIsHalal] = useState(null)
-  const countries = ["O'zbek", "Русский", "English", "Қазақ"]
+  const countries = ["O'zbek", "Русский", "English",]
 
 const handleSupmit= (e) =>{
   e.preventDefault()
